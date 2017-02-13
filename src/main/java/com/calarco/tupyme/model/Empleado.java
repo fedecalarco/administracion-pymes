@@ -1,5 +1,8 @@
 package com.calarco.tupyme.model;
 
+import lombok.Data;
+
+@Data
 public class Empleado {
 
     private String nombreCompleto;
@@ -8,6 +11,4 @@ public class Empleado {
     private int cantidadHijos;
     private boolean casado;
     private int edad;
-
-    
 }
