@@ -11,4 +11,6 @@ public class Empleado {
     private int cantidadHijos;
     private boolean casado;
     private int edad;
+    private String Nlegajo;
+    private String antiguedad;
 }

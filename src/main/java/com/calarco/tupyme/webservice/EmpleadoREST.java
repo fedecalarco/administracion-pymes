@@ -36,8 +36,8 @@ public class EmpleadoREST {
         Empleado emp1 = new Empleado();
         emp1.setNombreCompleto("Federico Gaston Calarco");
         emp1.setCuit("20-38232274-7");
-        emp1.setCantidadHijos(0);
-        emp1.setCasado(false);
+        emp1.setCantidadHijos(12);
+        emp1.setCasado(true);
         emp1.setEdad(22);
         emp1.setDireccion(createDireccion());
 

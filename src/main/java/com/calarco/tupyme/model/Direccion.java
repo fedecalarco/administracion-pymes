@@ -14,4 +14,5 @@ public class Direccion {
     private String provincia;
     private String ciudad;
     private int codigoPostal;
+
 }
