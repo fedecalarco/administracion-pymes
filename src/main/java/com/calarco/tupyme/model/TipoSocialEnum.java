@@ -6,7 +6,10 @@ public enum TipoSocialEnum {
     SOCIEDAD_SRL("Sociedad SRL"),
     SOCIEDAD_COOPERATIVA("Sociedad cooperativa"),
     SOCIEDAD_ANONIMA("Sociedad anonima"),
-    FIDEICOMISO("Fideicomiso");
+    FIDEICOMISO("Fideicomiso"),
+    PERSONA_FISICA("Persona Fisica");
+
+
 
     private String tipoSocial;
 
