@@ -19,8 +19,5 @@ public class Empleado {
     private String antiguedad;
     private String fechaIngreso;
     private String fechaEgreso;
-    private List<EstrucuraEmpresa> puesto;
-
-
-
+    private List<TipoPuestoEmpleadoEnum> puesto;
 }

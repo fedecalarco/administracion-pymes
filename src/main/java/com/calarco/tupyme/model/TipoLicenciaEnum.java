@@ -5,29 +5,29 @@ package com.calarco.tupyme.model;
  */
 public enum TipoLicenciaEnum {
 
-    LICENCIA_VACACIONES("licencia Vacaciones"),
-    LICENCIA_ENFERMEDAD("Licencia Enfermedad"),
-    LICENCIA_ESTUDIO("Licencia Estudio"),
-    LICENCIA_CAPACITACION("Licencia Capacitacion"),
-    LICENCIA_CASAMIENTO("Licencia Casamiento"),
-    LICENCIA_MATERNIDAD("Licencia Maternidad"),
-    LICENCIA_FALLECIMIENTO("Licencia Fallecimiento"),
-    LICENCIA_PATERNIDAD("Licencia Paternidad"),
-    LICENCIA_HIJO("Licencia por Hijo"),
-    LICENCIA_INJUSTIFICADA("Licencia Injustificada");
+    LICENCIA_VACACIONES("Licencia de vacaciones"),
+    LICENCIA_ENFERMEDAD("Licencia de enfermedad"),
+    LICENCIA_ESTUDIO("Licencia de estudio"),
+    LICENCIA_CAPACITACION("Licencia de capacitacion"),
+    LICENCIA_CASAMIENTO("Licencia de casamiento"),
+    LICENCIA_MATERNIDAD("Licencia de maternidad"),
+    LICENCIA_FALLECIMIENTO("Licencia de fallecimiento"),
+    LICENCIA_PATERNIDAD("Licencia de paternidad"),
+    LICENCIA_HIJO("Licencia por hijo"),
+    LICENCIA_INJUSTIFICADA("Licencia injustificada");
 
     private String tipoLicencia;
 
-    TipoLicenciaEnum(String tipoLicencia) {this.tipoLicencia = tipoLicencia;}
+    TipoLicenciaEnum(String tipoLicencia) {
+        this.tipoLicencia = tipoLicencia;
+    }
 
+    public String getTipoLicencia() {
+        return tipoLicencia;
+    }
 
-
-
-
-
-
-
-
-
+    public void setTipoLicencia(String tipoLicencia) {
+        this.tipoLicencia = tipoLicencia;
+    }
 }
 
