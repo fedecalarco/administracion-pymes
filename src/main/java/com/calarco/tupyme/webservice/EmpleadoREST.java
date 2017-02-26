@@ -34,7 +34,7 @@ public class EmpleadoREST {
         List<Empleado> empleados = new ArrayList<Empleado>();
 
         Empleado emp1 = new Empleado();
-        emp1.setNombre("Federico Gaston");
+        emp1.setNombre("Nicolas ");
         emp1.setApeliido("Calarco");
         emp1.setCuit("20-38232274-7");
         emp1.setCantidadHijos(12);
