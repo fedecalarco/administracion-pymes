@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.calarco.tupyme</groupId>
@@ -10,11 +10,11 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <cxf.version>2.7.12</cxf.version>
+        <cxf.version>3.0.1</cxf.version>
         <spring.version>3.2.10.RELEASE</spring.version>
     </properties>
 
-  <!-- DEPENDENCIES -->
+    <!-- DEPENDENCIES -->
     <dependencies>
 
         <dependency>
@@ -76,31 +76,6 @@
         <!-- Apache CXF -->
 
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-bundle-jaxrs</artifactId>
-            <version>2.7.12</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-databinding-aegis</artifactId>
-            <version>2.7.12</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-transports-http-hc</artifactId>
-            <version>2.7.12</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${cxf.version}</version>
@@ -111,10 +86,6 @@
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>${cxf.version}</version>
         </dependency>
-
-
-
-
 
         <dependency>
             <groupId>org.apache.cxf</groupId>
@@ -185,4 +156,7 @@
             </plugin>
         </plugins>
     </build>
+
+
+
 </project>
