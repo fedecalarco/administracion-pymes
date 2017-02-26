@@ -10,7 +10,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <cxf.version>3.0.1</cxf.version>
+        <cxf.version>2.7.12</cxf.version>
         <spring.version>3.2.10.RELEASE</spring.version>
     </properties>
 
@@ -76,6 +76,31 @@
         <!-- Apache CXF -->
 
         <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-bundle-jaxrs</artifactId>
+            <version>2.7.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-databinding-aegis</artifactId>
+            <version>2.7.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http-hc</artifactId>
+            <version>2.7.12</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>${cxf.version}</version>
@@ -86,6 +111,10 @@
             <artifactId>cxf-rt-transports-http</artifactId>
             <version>${cxf.version}</version>
         </dependency>
+
+
+
+
 
         <dependency>
             <groupId>org.apache.cxf</groupId>
@@ -117,8 +146,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
-            <version>3.0-alpha-1</version><!-- Note: tomcat 7 implements
-                verison "3.0", but "3.0-alpha-1" is the only 3.0 version available -->
+            <version>3.0-alpha-1</version>
             <scope>provided</scope>
         </dependency>
 
@@ -128,13 +156,6 @@
             <artifactId>jsr311-api</artifactId>
             <version>1.1.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-            <version>2.0.1</version>
-        </dependency>
-
 
     </dependencies>
 
@@ -164,7 +185,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 </project>
